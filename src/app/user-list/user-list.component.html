@@ -3,16 +3,20 @@
     <table class="table table-bordered table-striped">
       <thead class="thead-dark">
         <tr>
-          <th scope="col">#</th>
-          <th scope="col">Name</th>
           <th scope="col">Email</th>
+          <th scope="col">Last name</th>
+          <th scope="col">First name</th>
+          <th scope="col">Avatar</th>
+          <th scope="col">Role</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let user of (users | async)">
-          <td>{{ user.firstName }}</td>
-          <td>{{ user.lastName }}</td>
           <td><a href="mailto:{{ user.email }}">{{ user.email }}</a></td>
+          <td>{{ user.lastName }}</td>
+          <td>{{ user.firstName }}</td>
+          <td>{{ user.avatar }}</td>
+          <td>{{ user.role }}</td>
         </tr>
       </tbody>
     </table>
