@@ -22,7 +22,7 @@
     "@apollo/client": "^3.0.0",
     "apollo-angular": "^2.4.0",
     "graphql": "^15.0.0",
-    "hosted-git-info": "^4.0.2",
+    "hosted-git-info": "^2.8.9",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
